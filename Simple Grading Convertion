@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main
+{
+    /*
+    aweirdgift
+    Example of If-else program
+    */
+	public static void main(String[] args) {
+		System.out.println("GRADING CONVERTION  \n" + "Please enter your grade:   ");
+		
+		Scanner scan = new Scanner(System.in);
+		int grade = scan.nextInt();
+		
+		
+		if (grade >= 94 && grade <= 97 ) {
+		    System.out.println("1.00\n EXCELLENT!");
+		}
+		else if (grade >= 90 && grade <= 93) {
+		    System.out.println("1.25\n KEEP IT UP!");
+		}
+		else if (grade >=85 && grade <= 89) {
+		     System.out.println("1.75\n GOOD JOB");
+		     }
+		else if (grade >=80 && grade <=84) {
+		     System.out.println("2.00\n YOU CAN DO MORE!");
+		}
+		else if (grade == 75) {
+		    System.out.println("STUDY HARD FOR YOUR FAMILY DUDE!");
+		}
+	}
+}
+
